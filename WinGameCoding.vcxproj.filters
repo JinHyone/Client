@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00_MainGame">
+      <UniqueIdentifier>{2d5409c4-ed20-4f42-9489-17778f09e2e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Manager">
+      <UniqueIdentifier>{08a16334-6bd8-4da8-b3e0-361f64449b13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99_Headers">
+      <UniqueIdentifier>{4bd48d31-0fb9-452a-82d5-a08a8d1b2847}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99_Headers\Andromeda">
+      <UniqueIdentifier>{daea94ae-58e4-467c-8db4-90824cda631c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Scene">
+      <UniqueIdentifier>{80f5abb5-ffac-48ed-a892-e4120afbb497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04_Object">
+      <UniqueIdentifier>{be3d6902-c1ea-48d0-9f59-2e67c8058600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Scene\Game">
+      <UniqueIdentifier>{21c2f19b-055b-40c6-a7cb-7e9ac335446c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04_Object\Game">
+      <UniqueIdentifier>{c2266e49-b0ca-44eb-b04f-b5bf1ceb95b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05_Resources">
+      <UniqueIdentifier>{1ece10ca-a2eb-4583-8c7c-181f602833e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05_Resources\game">
+      <UniqueIdentifier>{a896c978-1046-4ad4-9970-aa73135e2852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Manager\Game">
+      <UniqueIdentifier>{b3800da2-9de9-4556-b0ae-adc60ea29a00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Compoent">
+      <UniqueIdentifier>{b60b8e02-319a-4121-a1c4-27d8c491feb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Compoent\Camera">
+      <UniqueIdentifier>{c95ed8e4-0f55-4649-b1df-66252ded70df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07_UI">
+      <UniqueIdentifier>{e052f124-48cf-42f1-a867-90674e1d8b30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07_UI\Game">
+      <UniqueIdentifier>{d2802c10-c9ff-4bd3-838d-0f88179f8e63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05_Resources\Paper2D">
+      <UniqueIdentifier>{c8b4ff6d-b790-4060-b405-1e85fa141a61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04_Object\Game\Creature">
+      <UniqueIdentifier>{df108827-7bc7-4e93-a93d-48140a7666ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04_Object\Game\Effect">
+      <UniqueIdentifier>{b6b6b229-f112-42aa-91c1-287a4446d2fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04_Object\Game\Projectile">
+      <UniqueIdentifier>{43c0d937-0354-4000-bfbf-554bb793582b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocol">
+      <UniqueIdentifier>{4b617897-b494-444d-ac99-6070900fafae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02_NetWork">
+      <UniqueIdentifier>{09f4065e-d67c-439f-b531-32bb3e92a49f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>99_Headers\Andromeda</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99_Headers\Andromeda</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99_Headers\Andromeda</Filter>
+    </ClInclude>
+    <ClInclude Include="WinGameCoding.h">
+      <Filter>00_MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>99_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="enums.h">
+      <Filter>99_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>99_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>00_MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>99_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>01_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>01_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>03_Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>99_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMananger.h">
+      <Filter>01_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="DevScene.h">
+      <Filter>03_Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>03_Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="EditScene.h">
+      <Filter>03_Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceBase.h">
+      <Filter>05_Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>01_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Values.h">
+      <Filter>99_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Compoent.h">
+      <Filter>06_Compoent</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>04_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteActor.h">
+      <Filter>04_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="FlipbookActor.h">
+      <Filter>04_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraCompoent.h">
+      <Filter>06_Compoent\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>07_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>07_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Panel.h">
+      <Filter>07_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Flipbook.h">
+      <Filter>05_Resources\Paper2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>05_Resources\Paper2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>05_Resources\Paper2D</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMap.h">
+      <Filter>05_Resources\Paper2D</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMapActor.h">
+      <Filter>04_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>01_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>05_Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>04_Object\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>04_Object\Game\Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature.h">
+      <Filter>04_Object\Game\Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>04_Object\Game\Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrow.h">
+      <Filter>04_Object\Game\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>04_Object\Game\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="HitEffect.h">
+      <Filter>04_Object\Game\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol.pb.h">
+      <Filter>Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.pb.h">
+      <Filter>Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.pb.h">
+      <Filter>Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientPacketHandler.h">
+      <Filter>02_NetWork</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerSession.h">
+      <Filter>02_NetWork</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWorkManager.h">
+      <Filter>01_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPlayer.h">
+      <Filter>04_Object\Game\Creature</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WinGameCoding.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="WinGameCoding.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinGameCoding.cpp">
+      <Filter>00_MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>99_Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>00_MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>01_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>01_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMananger.cpp">
+      <Filter>01_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="DevScene.cpp">
+      <Filter>03_Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>03_Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="EditScene.cpp">
+      <Filter>03_Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceBase.cpp">
+      <Filter>05_Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>01_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Compoent.cpp">
+      <Filter>06_Compoent</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>04_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteActor.cpp">
+      <Filter>04_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="FlipbookActor.cpp">
+      <Filter>04_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraCompoent.cpp">
+      <Filter>06_Compoent\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>07_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>07_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Panel.cpp">
+      <Filter>07_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>03_Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Flipbook.cpp">
+      <Filter>05_Resources\Paper2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>05_Resources\Paper2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>05_Resources\Paper2D</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMap.cpp">
+      <Filter>05_Resources\Paper2D</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMapActor.cpp">
+      <Filter>04_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>01_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>05_Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>99_Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>04_Object\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>04_Object\Game\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="Creature.cpp">
+      <Filter>04_Object\Game\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>04_Object\Game\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrow.cpp">
+      <Filter>04_Object\Game\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>04_Object\Game\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="HitEffect.cpp">
+      <Filter>04_Object\Game\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol.pb.cc">
+      <Filter>Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="Struct.pb.cc">
+      <Filter>Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="Enum.pb.cc">
+      <Filter>Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientPacketHandler.cpp">
+      <Filter>02_NetWork</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerSession.cpp">
+      <Filter>02_NetWork</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWorkManager.cpp">
+      <Filter>01_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPlayer.cpp">
+      <Filter>04_Object\Game\Creature</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint">
+      <Filter>99_Headers</Filter>
+    </None>
+  </ItemGroup>
+</Project>
